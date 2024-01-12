@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>카카오택시 모집(개발)</title>
+            <style>
+                .wrap{
+                    width: 700px;
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50% ,0);
+                }
+                .kakao{
+                    text-align: left;
+                    font-size: 35px;
+                    padding: 15px;
+                    font-weight: 500;
+                }
+                .a{
+                    height: 10px;
+                    background-color: rgb(108, 34, 177);
+                    border-start-end-radius: 10px;
+                    border-start-start-radius: 10px;
+                }
+
+                .b{
+                    height: auto;
+                    margin-top: 10px;
+                
+                    background-color: rgb(108, 34, 177);
+                    border-start-end-radius: 10px;
+                    border-start-start-radius: 10px;
+                }
+
+                .box1{
+                    background-color: white;
+                    height: auto;
+                    border-end-start-radius: 10px;
+                    border-end-end-radius: 10px;
+                    border: rgb(187, 187, 187) solid 1px;
+                }
+
+                .box3{
+                    margin-top: 10px;
+                    background-color: white;
+                    height: auto;
+                    border-radius: 10px;
+                    border: rgb(187, 187, 187) solid 1px;
+                }
+
+                .필수사항{
+                    color: red;
+                    text-align: left;
+                    margin: 30px;
+                }
+
+                .안내문{
+                    text-align: left;
+                    margin-left: 30px;
+                }
+                
+                .po{
+                    text-align: left;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+
+                        .redcolor{
+                    color: red;
+                }
+                .kakao2{
+                    font-weight: 700;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+                .kakao3{
+                    font-weight: 700;
+                    margin-left: 20px;
+                    font-size: 15px;
+                }
+                .namebar{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    -webkit-box-direction: normal;
+                    word-wrap: break-word;
+                    -webkit-tap-highlight-color: transparent;
+                    unicode-bidi: isolate;
+                    -webkit-box-flex: 1;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                    background-color: transparent;
+
+                    display: block;
+                    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+                    height: 24px;
+                    min-width: 0%;
+                    padding: 0;
+                    z-index: 0;
+                    font-family: Roboto,Arial,sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: .2px;
+                    line-height: 20px;
+                    color: rgb(32,33,36);
+                    line-height: 20px;
+                }
+                .true{
+                    margin: 20px;
+                }
+
+
+                .img{
+                    padding: 20px;
+                }
+            </style>
+        </head>
+
+        <body bgcolor="#F0EBF8">
+            <div class="wrap">
+                
+                <div class="a"><br></div>
+
+                <div class="box1">
+                    <div class="kakao">
+                        [카카오 T 제휴 법인택시회사] T 크루 모집 접수
+                    </div>
+                    <div class="필수사항">
+                        *필수항목
+                    </div>
+                </div>
+
+                <div class="b">
+                    <div style=" padding:15px; color: white;">[카카오 T 제휴 법인택시회사] 모집 접수</div>
+                </div>
+
+                <div class="box1">
+                    <div class="po">
+                        아래의 항목을 빈칸없이 예시에 맞춰 작성 부탁드립니다. 입력하신 정보가 불확실한 경우 원활<br>
+                        한 안내가 어려울 수 있습니다. <br>
+                            <div style="margin-top: 20px; margin-bottom: 20px;">
+                                접수하신 내용을 토대로 채용 안내처에서 접수 확인 메시지를 보내드립니다. 
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">이름<span class="redcolor">*</span></div>
+                    <div class="kakao3">예시 홍길동</div>
+                    <input type="text" class="namebar">
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">휴대폰 번호<span class="redcolor">*</span></div>
+                    <div class="kakao3">예시 010-1234-5678</div>
+                    <input type="text" class="namebar">
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">생년월일<span class="redcolor">*</span></div>
+                    <div class="kakao3">예시 750720</div>
+                    <input type="text" class="namebar">
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">택시면허 보유 여부 (핸재 기준)<span class="redcolor">*</span></div>
+                    <div class="true">
+                        <input type="radio">보유
+                    </div>
+                    <div class="true">
+                        <input type="radio">미보유
+                    </div>
+                        
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">택시회사 경력 여부<span class="redcolor">*</span></div>
+                    <div class="true">
+                        <input type="radio"> 있음
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 없음
+                    </div>
+                        
+                </div>
+
+                <div class="box3">
+                    <div class="kakao2">택시면허 보유 또는, 취득 예정 지역
+                        <span class="redcolor">*</span></div>
+                        <div class="kakao3">*보유 또는, 취득 예정이신 면허 지역을 선택해주세요. 지역에 따라 택시회사 배정이 지연될<br>
+                             수 있습니다. (서울, 일부 경기, 광주광역시, 대구광역시 채용 중)</div>
+                    <div class="true">
+                        <input type="radio"> 서울
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 경기
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 인천
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 광주광역시
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 대구광역시
+                    </div>
+                    <div class="true">
+                        <input type="radio"> 기타:<input type="text" class="namebar">
+                    </div>
+
+                </div>
+                
+                <div class="box3">
+                    <div class="kakao2">지역별 채용 현황 (그 외 지역은 아직 채용이 진행되고 있지 않습니다.) *20년 7월 기
+                        <br>준</div>
+                        <div class="img">
+                            <img src="./스크린샷 2020-07-20 오후 1.33.18.png" style="width: 100%;">
+                        </div>
+                        
+                </div>
+                <div style="margin-top: 10px; height: 50px;">
+                    <a href="./index.html">
+                        <div style="background-color: white; float: left; border-radius: 5px;">
+                            <div style="margin: 10px;">뒤로</div>
+                        </div>
+                    </a>
+
+                    <a href="./index.html">
+                        <div style="background-color: white; margin-left: 10px; float:  left; border-radius: 5px;">
+                            <div style="margin: 10px;">다음</div>
+                        </div>
+                    </a>
+        
+                    <div style="float: left; margin-top: 10px; transform: translate(70%, 0);">
+                        <progress value="40" max="100"></progress> 2/6 페이지
+                    </div>
+                    <a href="./index2.html">
+                        <div style="background-color: white; float: right; border-radius: 5px;">
+                            <div style="margin: 10px;">양식 지우기</div>
+                        </div>
+                    </a>
+                </div>
+                <div style="text-align: left; margin-top: 10px; font-size: 15px;">
+                    Google Forms를 통해 비밀번호를 제출하지 마세요.
+                </div>
+                <div style="text-align: center; margin-top: 10px; font-size: 15px;">
+                    이 설문지는 카카오모빌리티 내부에서 생성되었습니다. 악용사례 신고
+                </div>
+                <div style="text-align: center; margin-top: 10px; font-size: 30px; opacity: 0.5;">
+                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" > 설문지    
+                </div>
+        
+            </div>
+        </body>
+    </html>
